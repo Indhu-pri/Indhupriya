@@ -1,0 +1,42 @@
+
+body{
+    
+        
+        font-family: "Protest Guerrilla", sans-serif;
+        
+          
+      
+      
+}
+.banner{
+    background-image: url(/banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+}
+.padding{
+    padding: 80px 0;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+  }
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%; /* Adjust the width to fit your layout */
+    margin: auto; /* Center the list horizontally */
+  }
+  .skills-list li {
+    width: 20%; /* Adjust the width to fit your layout */
+    margin: 15px;
+    text-align: center;
+    padding: 10px; /* Add padding */
+  }
+  .skills-list i {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
